@@ -49,3 +49,12 @@ def length_and_value(num1, num2):
     
 print(length_and_value(4, 7))
 print(length_and_value(6, 2))
+
+def length_and_value2(size, value):
+    newList = []
+    for num in range(size):
+        newList.append(value)
+    return newList
+
+
+print(length_and_value2(4, 7))
